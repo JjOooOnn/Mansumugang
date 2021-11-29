@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ <html> 
+ 	<head> 
+ 		<meta charset="UTF-8"> 
+ 		<title>Insert title here</title> 
+ 	</head> 
+
+ 	<body> 
+ 		<h2>세션 결과 보기</h2> 
+ 		<br> 
+ 		<p>반환된 context의 gender값: {{gender}}</p> 
+ 		<p>반환된 context의 age값: {{age}}</p>
+ 		<p>반환된 context의 chkprag값: {{chkprag}}</p>
+ 		<p>session에 저장 된 gender 값: {{request.session.gender}}
+ 		<p>session에 저장 된 age 값: {{request.session.age}}
+ 		<p>session에 저장 된 chkprag 값: {{request.session.chkprag}}
+ 		</p>
+ 		<hr> 
+ 		<a href="/gender/">처음부터 다시 선택</a> 
+ 		<a href="/">Main으로 가기</a> 
+ 	</body>
+ </html>

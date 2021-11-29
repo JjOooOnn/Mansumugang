@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <form method="GET">
+            {% csrf_token %}
+            <SELECT type="char" NAME = "chkprag">임산부
+                <OPTION value = "Y" SELECTED> 해당 </OPTION>
+                <option value = "N"> 비해당 </option>
+            </SELECT>
+            <br>
+
+            <button type="submit" class="btn btn-primary">POST</button>
+            
+        </form>
+
+    </body>
+</html>
